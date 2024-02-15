@@ -576,7 +576,7 @@ span {
 
 @media (max-width: 365px) {
   .home-img img {
-    width: 20vw;
+    width: 90vw;
   }
 
   .about-img img {
