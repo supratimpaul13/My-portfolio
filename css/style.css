@@ -460,6 +460,7 @@ span {
 @media (max-width: 991px) {
   .header {
     padding: 2rem 3%;
+    width: 85%;
   }
 
   section {
@@ -511,7 +512,13 @@ span {
   }
 
   .home {
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .home-content h3 {
@@ -529,6 +536,8 @@ span {
 
   .about {
     flex-direction: column-reverse;
+    padding-right: 12px;
+    text-align: justify;
   }
 
   .about-img img {
@@ -567,7 +576,7 @@ span {
 
 @media (max-width: 365px) {
   .home-img img {
-    width: 90vw;
+    width: 20vw;
   }
 
   .about-img img {
